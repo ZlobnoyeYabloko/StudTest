@@ -3,5 +3,10 @@
 using namespace std;
 int main()
 {
-	cout << "Hello World" << endl;
+	int c;
+	cin >> c;
+	if (c > 1)
+	{
+		cout << "Hello World" << endl;
+	}
 }
