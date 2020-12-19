@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-	int a, b, c;
+	int a, b, c, d;
 	cout << "Vedite a,b,c" << endl;
 	cout << "Vedite a: ";
 	cin >> a;
@@ -13,12 +13,15 @@ int main()
 	cin >> b;
 	cout << "Vedite c: ";
 	cin >> c;
-	int a1, b1, c1;
+	cout << "Vedite d: ";
+	cin >> d;
+	int a1, b1, c1, d1;
 	a1 = a / 100;
 	b1 = b / 100;
 	c1 = c / 100;
+	d1 = d / 100;
 
-	if (c1>b1>a1) {
+	if (d1>c1>b1>a1) {
 		cout << "true" << endl;
 	}
 	else {
