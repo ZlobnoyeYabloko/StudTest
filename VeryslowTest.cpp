@@ -6,7 +6,7 @@ int main()
 	int b, n;
 	cin >> b;
 	cout << "Vedite B: " << endl;
-	n = b + 1;
+	n = b + 1+2;
 	cout << "result" << n << endl;
 
 }
